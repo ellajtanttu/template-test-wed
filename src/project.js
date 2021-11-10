@@ -1,27 +1,12 @@
-export class ClassExample1 {
-  constructor() {
+// export class TestObject {
+//   constructor(number) {
+//     this.number = 3;
+//   }
+// }
 
-  }
-
-  function1() {
-
-  }
-
-  function2() {
-
-  }
-}
-
-export class ClassExample2 {
-  constructor() {
-
-  }
-
-  function1() {
-
-  }
-
-  function2() {
-
-  }
+export function DogMoods (happy, sad, mad)
+{
+  this.happy = happy;
+  this.sad = sad;
+  this.mad = mad;
 }

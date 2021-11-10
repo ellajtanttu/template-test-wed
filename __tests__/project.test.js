@@ -1,12 +1,12 @@
-import { ClassExample1, ClassExample2 } from "../src/project"; // classes
-import object from './object.js'; // object
+// import { ClassExample1, ClassExample2 } from "../src/project"; // classes
+import {DogMoods} from './../src/project.js'; // object
 
-describe('object', () => {
+describe('DogMoods', () => {
 
-  test('should ...', () => {
-    const variableName = new object(p,p,p);
-    expect(object.p).toEqual(p);
-    expect(object.p).toEqual(p);
-    expect(object.p).toEqual(p);
+  test('testMood.happy should be defined', () => {
+    const testMood = new DogMoods("woof", "yip", "growl");
+    expect(testMood.happy).toBeDefined();
   });
 });
+
+// expect(monster1.level).toBeDefined();
